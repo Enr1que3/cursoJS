@@ -1,0 +1,35 @@
+sitaxis,variables y palabras reservadas
+tipado en js es un tipado inferido, lo que se refieres es que no se requiere especificar,
+si es un int, string o float
+ventajas 👍
+reduce el timpo de desarrollo
+desventajas 👎
+que no se pueden usar la mismas varibles
+de numero(int) a cadena de texto (string)
+
+tipo en js
+
+2 grupos primitivos y objetos
+
+**Datos primitivos
+    Number como 1,8,3,4,13,45,3152,54.51
+    string como "mi nombre es ","e","73" se condideran strings todos los datos que se encuentren en "" comillas dobles o '' comillas simples
+    Boolean los datos primitivos booleanos solo tienes dos opciones true o flase o 0=false y 1=true
+    null asigna un espacio vacio en memoria y por lo tanto no guarda ningun valor
+    undefined no esta asiganada a ninguna parte de memoria 
+
+**Objetos
+    arrays un array es lista con elementos del mismo tipo como numeros o strings 
+    arr = [1,2,3,4,5] arrglo de numeros
+    arr =["Brenda",Diaz,]
+
+
+variables
+
+ddiferencias y similitudes entre null undefined, flase y 0
+
+var, let, const
+
+escritura dinámica
+
+typeof
