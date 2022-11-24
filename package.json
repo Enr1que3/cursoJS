@@ -1,0 +1,24 @@
+{
+  "name": "cursojs",
+  "version": "1.0.0",
+  "description": "mi-primer-curso",
+  "main": "index.js",
+  "scripts": {
+    "saludar": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enr1que3/cursoJS.git"
+  },
+  "keywords": [
+    "holamundo",
+    "ftproject"
+  ],
+  "author": "enrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enr1que3/cursoJS/issues"
+  },
+  "homepage": "https://github.com/Enr1que3/cursoJS#readme"
+}
