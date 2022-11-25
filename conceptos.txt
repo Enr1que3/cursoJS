@@ -82,3 +82,51 @@ const movil={
     largo:45
 };
 
+**Listas objetos y fechas en JS
+    //lista o array(arreglo)
+    const lista =[1,"hola",false,null,undefined];
+    const lista2= new Array(45,"hola",false,null,undefined)
+    const lista3=new Array(3)
+    lista3[1]="soy un string en le indice 2";
+    const lista4=["soy un la lista 4 y tengo los valores de",lista,lista2,lista3]//listas dentro de una lista
+
+    console.log(lista);
+    console.log(lista2);
+    console.log(lista3);
+    console.log(lista4);
+
+//objetos
+    //son representaciones en datos de objetos de la vida real
+    const Movil={
+        altura:10,
+        largo: 5,
+        marca:"Samsung",
+        apagado:true,
+        contactos: ["enrique","Brenda","lizbeth"],
+        tarjeta:{
+            marca:"movistar",
+            almaceamiento: 128,
+        }
+    };
+    Movil.anio=2022
+    Movil.marca="apple";
+
+    console.log(Movil.marca);
+// fechas
+    //librerias de apoyo Moment.js
+
+    const ahora=new Date()
+    console.log(ahora);
+    const fecha_milis=new Date(10)//utilizando los milisegundo
+    console.log(fecha_milis);
+
+    const fecha_cadena=new Date("25-marzo-2021");//utilizando cadena de texto (march 25 2022)
+    console.log(fecha_cadena);
+
+    const fecha_valores =new Date(2022,10, 25);
+    console.log(fecha_valores);
+
+    const dia=ahora.getDate();
+    const mes=ahora.getMonth()+1;
+    const year = ahora.getFullYear()
+    console.log(dia,"-",mes,"-",year);
