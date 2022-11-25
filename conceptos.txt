@@ -27,6 +27,13 @@ tipo en js
 **variables
     hay tres formas de definir varibles
     var,let son varible son como una especie de caja en donde se almacenan valores y pueden cambiar
+    const
+
+
+diferencias y similitudes entre null undefined, flase y 0
+
+var, let, const
+
 
     var varible="hola soy una varible var"//<---------l
                                              //       l
@@ -37,11 +44,41 @@ tipo en js
     
     const 
 
+**escritura dinámica
+    me lo perdi
+**typeof
+    typeof ayuda a ver que tipo de dato primitivo es 
+    console.log(typeof(465))//Number
+    console.log(typeof(true))//Boolean
+    console.log(typeof("465"))string
 
-ddiferencias y similitudes entre null undefined, flase y 0
+    var number =45;
+    number="soy un string"
+    console.log(typeof number)//number
+    console.log(typeof number)//string
 
-var, let, const
+**Notacion de js
 
-escritura dinámica
+// ; --> Delimitar el final de una linea
+//paras buenas practicas si es recomendado
+    let aad=5;
 
-typeof
+//.
+    // . se utiliza en los objetos para acceder a los atributos
+    //let movil.ancho 
+
+//[]--> se usan para arrays o arreglos y listas tambine se puede utilizar par acceder a la posiciones del arr o la lista
+    const arr=[1,2,3,4,5];
+    console.log(arr[3]);
+//() se utilizan para funciones
+    function suma(p,q){
+        return p + q;
+        //completar la funcion
+    }
+
+//{}-->llaves para objetos, funciones y esctructura de control
+const movil={
+    anchura: 5,
+    largo:45
+};
+
