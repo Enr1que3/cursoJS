@@ -24,7 +24,19 @@ tipo en js
     arr =["Brenda",Diaz,]
 
 
-variables
+**variables
+    hay tres formas de definir varibles
+    var,let son varible son como una especie de caja en donde se almacenan valores y pueden cambiar
+
+    var varible="hola soy una varible var"//<---------l
+                                             //       l
+                                             //       l
+    for(var i=0;i<3;i++){                    //       l
+        var varible="soy la segunda variable"//-------l esta variable afecta a la varible superios apesar de estar declarada en un bloque
+    }
+    
+    const 
+
 
 ddiferencias y similitudes entre null undefined, flase y 0
 
