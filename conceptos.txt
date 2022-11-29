@@ -130,3 +130,32 @@ const movil={
     const mes=ahora.getMonth()+1;
     const year = ahora.getFullYear()
     console.log(dia,"-",mes,"-",year);
+
+Bifuraciones if else y switch
+    ¿Que son las esctructuras de control?
+        la esctrucutura de control es una metodologia que nos permite manjar un poquito mejor o tener mas control acerca de todo nuestro codig, es decir podemos dirijir nuestro codigo por donde nosotros queramos en funcion de ciertas condiocnes.
+
+        Bifuraciones son esctructuras que nos permiten decirir, si por ir por un camino u el otro 
+            if else
+                if hace que la condicion se cumpla 
+                else if va recorriendo cada opcion hasta encontrar la verdadera
+                if else hace que si una condicion no se cumple, ejecute otra parte del codigo
+            comparaciones
+                = el simbolo = significa un asignaicon
+                == solo compara el valor  (iguladad debil) 1=="1" true
+                === compara valor y tipo (igualdad fuerte)  1==="1" false
+
+            switch 
+                en funcion de un valor me permite hacer varias condicones 
+
+
+Bucles 
+    todos tienes la misma funcion, que es la de incrementar el valor
+    i=i+1;
+    i +=1;
+    i++
+    for(inicializacion; condicion;actualización){
+
+    }
+
+controlar bucles con continue y break
